@@ -121,3 +121,12 @@ body{
 .button-verif:active{
     background-color: #ffffff;
 }
+
+#res{
+    color: #ffffff;
+}
+
+#imagem-pessoa{
+    width: 100px;
+    height: 100px;
+}
