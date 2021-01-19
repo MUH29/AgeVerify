@@ -24,20 +24,20 @@
                 <!--Section com formulário-->
                 <section id="formulario">
                     <div>
-                        <p>
+                        <p class="nasc">
                             Ano de Nascimento
-                            <input type="number" name="txtano" min="0">
+                            <input type="number" name="txtano" min="0" class="nasc-input">
                         </p>
                         
                         <p>
                             Sexo:
-                            <input type="radio" name="radsex" id="mas" checked>
+                            <input type="radio" name="radsex" id="mas" class="rad" checked>
                             <label for="mas"> Masculino </label>
-                            <input type="radio" name="radsex" id="fem" checked>
+                            <input type="radio" name="radsex" id="fem" class="rad">
                             <label for="mas"> Feminino </label>
                         </p>
                         <p>
-                            <input type="button" value="Verificar" onclick="verificar()">
+                            <input type="button" value="Verificar" onclick="verificar()" class="button-verif">
                         </p>
                     </div>
                 </section>
@@ -45,6 +45,6 @@
         </div>
     </div>
     <!--Importando script-->
-    <script src="scr/js/script.js"></script>
+    <script src="src/js/script.js"></script>
 </body>
 </html>

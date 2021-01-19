@@ -41,7 +41,7 @@ body{
     background: #56cbf2b6;  
     background: -webkit-linear-gradient(to right, #2f81edad, #56cbf2be);  
     background: linear-gradient(to right, #2f81ed9c, #56cbf2a6); 
-    width: 45%;
+    width: 55%;
     height: 500px;
     /*Editando a position para posicionar ao centro da tela*/
     position: absolute;
@@ -61,15 +61,63 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: relative;
+    top: 2em;
 }
 
 /*Configurando título*/
 .title-site{
-    font-size: 3vw + 10%;
+    font-size: 3vh;
     color: #ffffff;
     position: relative;
     top: -2em;
     z-index: 1;
 }
 
+/*Configurando formulário*/
+#formulario{
+    font-size: 3.5vh;
+    color: #ffffff;
+}
 
+/*Configurando Posição do "Ano de Nascimento"*/
+.nasc{
+    padding-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Configurandi Input do Nascimento*/
+.nasc-input{
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    margin-left: 1em;
+    border: none;
+    outline: none;
+    color: #32a3ff;
+}
+
+/*Configurando botão de verificação*/
+.button-verif{
+    margin: 2em;
+    width: 10em;
+    padding: 1em;
+    background-color: #ffffff;
+    font-size: .75em;
+    color: #32a3ff;
+    border: none;
+    outline: none;
+    border-radius: 1em;
+}
+
+/*Configurando botão de verificação em hover*/
+.button-verif:hover{
+    background-color: #ebebeb;
+}
+
+/*Configurando botão de verificação em click*/
+.button-verif:active{
+    background-color: #ffffff;
+}
