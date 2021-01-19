@@ -129,7 +129,9 @@ body{
 
 /*Configurando div da imagem*/
 #imagem-pessoa{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     display: none;
+    position: relative;
+    top: 1.5em;
 }
