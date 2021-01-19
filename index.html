@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgeVerify</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1 class="title-site">
+                AgeVerify - Verificador De Idade
+            </h1>
+        </header>
+
+        <section id="formulario">
+            <div>
+                <p>
+                    Ano de Nascimento
+                    <input type="number" name="txtano" min="0">
+                </p>
+                
+                <p>
+                    Sexo:
+                    <input type="radio" name="radsex" id="mas" checked>
+                    <label for="mas"> Masculino </label>
+                    <input type="radio" name="radsex" id="fem" checked>
+                    <label for="mas"> Feminino </label>
+                </p>
+                <p>
+                    <input type="button" value="Verificar" onclick="verificar()">
+                </p>
+            </div>
+            <div></div>
+        </section>
+    </div>
+
+    <script src="scr/js/script.js"></script>
+</body>
+</html>
