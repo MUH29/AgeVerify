@@ -122,11 +122,14 @@ body{
     background-color: #ffffff;
 }
 
+/*Configurando cor da div referente à resposta*/
 #res{
     color: #ffffff;
 }
 
+/*Configurando div da imagem*/
 #imagem-pessoa{
     width: 100px;
     height: 100px;
+    display: none;
 }
