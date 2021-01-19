@@ -41,7 +41,7 @@ body{
     background: #56cbf2b6;  
     background: -webkit-linear-gradient(to right, #2f81edad, #56cbf2be);  
     background: linear-gradient(to right, #2f81ed9c, #56cbf2a6); 
-    width: 50%;
+    width: 45%;
     height: 500px;
     /*Editando a position para posicionar ao centro da tela*/
     position: absolute;
@@ -52,6 +52,8 @@ body{
     border-radius: 30px;
     box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.445);
 }
+
+/*Configurando Box do Conteúdo*/
 .content{
     height: 100%;
     width: 100%;
@@ -60,9 +62,10 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+
 /*Configurando título*/
 .title-site{
-    font-size: 200%;
+    font-size: 3vw + 10%;
     color: #ffffff;
     position: relative;
     top: -2em;
