@@ -41,8 +41,8 @@ body{
     background: #56cbf2b6;  
     background: -webkit-linear-gradient(to right, #2f81edad, #56cbf2be);  
     background: linear-gradient(to right, #2f81ed9c, #56cbf2a6); 
-    width: 55%;
-    height: 500px;
+    width: 70%;
+    height: 625px;
     /*Editando a position para posicionar ao centro da tela*/
     position: absolute;
     top: 50%;
